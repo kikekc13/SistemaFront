@@ -1,0 +1,29 @@
+.header{
+    background-color: aliceblue !important;
+}
+.breadcrumb{
+    color: blue !important;
+}
+#card-header{
+    background-color: darkcyan !important;
+}
+#textoblanco{
+    color: whitesmoke !important;
+    font-size: 1.2rem;
+    text-align: center;
+}
+#textoblanco1{
+    color: whitesmoke !important;
+    font-size: 1rem;
+}
+#darkcyan{
+    background-color: darkcyan !important;
+    color: whitesmoke !important;
+}
+#boton{
+    float: right !important;
+    background-color: green !important;
+}
+#boton:hover{
+    background-color: darkgreen !important;
+}
