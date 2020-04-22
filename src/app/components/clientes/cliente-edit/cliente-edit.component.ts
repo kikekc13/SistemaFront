@@ -22,10 +22,10 @@ export class ClienteEditComponent implements OnInit {
     this._route.params.subscribe(
       params=>{
         this.id = params['id'];
-
+        
         this._clienteService.get_cliente(this.id).subscribe(
           response =>{
-            console.log(response);
+            
             this.cliente = response.cliente;
           },
           error=>{

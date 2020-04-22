@@ -36,9 +36,9 @@ export class ClienteIndexComponent implements OnInit {
     )
   }
   search(searchForm){
-    this._clienteService.get_cliente(searchForm.value.filtro).subscribe(
+    this._clienteService.get_cliente(searchForm.value).subscribe(
       response =>{
-        console.log(searchForm.value.filtro);
+        console.log(searchForm.value);
       this.clientes = response.clientes;
       },
       error =>{

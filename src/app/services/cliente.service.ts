@@ -18,7 +18,7 @@ export class ClienteService {
 
   get_clientes():Observable<any>{
     let headers = new HttpHeaders().set('Content-Type','application/json');
-    return this._http.get(this.url+'clientes',{headers:headers});
+    return this._http.get(this.url+'clientes/',{headers:headers});
   }
 
   insert_cliente(data):Observable<any>{
